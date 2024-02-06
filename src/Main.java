@@ -14,7 +14,7 @@ class GameDisplayer extends Frame implements ActionListener {
     int switch_users = 0;
     private final Image bgImage;
     public GameDisplayer() {
-        bgImage = Toolkit.getDefaultToolkit().createImage("C:\\Users\\jedim\\OneDrive\\Masaüstü\\TicTacToeGame\\src\\bg_image.jpg");
+        bgImage = Toolkit.getDefaultToolkit().createImage("bg_image.jpg"); // Add bg_image source path.
         setLayout(null);
         setVisible(true);
         setSize(800, 600);
